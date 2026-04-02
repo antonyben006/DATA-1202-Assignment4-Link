@@ -17,8 +17,12 @@ For this, I applied a lambda function with .apply() to create a new column calle
 
 Lessons Learned
 •	Pandas boolean filtering works analogues to SQL, which is, both filter rows prior to any computation being performed.
+
 •	A lambda in .apply() is Python's version of CASE/WHEN, it’s the same logic, but different syntax.
+
 •	.groupby().mean() in Pandas is the same as GROUP BY with AVG() in SQL.
+
 •	Cleaning null values first is important as dirty data leads to wrong conclusions.
+
 •	Connecting Python to MySQL with mysql-connector-python brought both tools together into one workflow, which made it easy to cross-check results.
 
